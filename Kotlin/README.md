@@ -32,7 +32,7 @@ Then enter the notation, example: `(p & q) <-> (c | v)`, to exit you should send
 
 #### Notation
 
-- `!`, `¬` e `~` for negatiob
+- `!`, `¬` e `~` for negation
 - `&`, `^`, `∧` e `⋅` for conjunction
 - `|`, `v` e `+` for disjunction
 - `⊕` e `/=` for exclusive disjunction
