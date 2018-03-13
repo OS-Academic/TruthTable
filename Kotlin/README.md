@@ -32,10 +32,10 @@ Then enter the notation, example: `(p & q) <-> (c | v)`, to exit you should send
 
 #### Notation
 
-- `!`, `¬` e `~` for negation
-- `&`, `^`, `∧` e `⋅` for conjunction
-- `|`, `v` e `+` for disjunction
-- `⊕` e `/=` for exclusive disjunction
+- `!`, `¬` and `~` for negation
+- `&`, `^`, `∧` and `⋅` for conjunction
+- `|`, `v` and `+` for disjunction
+- `⊕` and `/=` for exclusive disjunction
 - `->` for conditional
 - `<->` for biconditional
 - Alphabet characters (from A to Z) both upper and lower case for prepositions (also sequences of characters may be used).
