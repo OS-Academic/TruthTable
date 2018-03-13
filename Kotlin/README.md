@@ -42,7 +42,7 @@ Then enter the notation, example: `(p & q) <-> (c | v)`, to exit you should send
 
 # Pt-br
 
-## Gerador de table verdade em Kotlin
+## Gerador de tabela verdade em Kotlin
 
 Gerador de tabela verdade implemtada em [Kotlin](https://kotlinlang.org) usando o gerador de analisador [Antlr4](http://antlr.org).
 
