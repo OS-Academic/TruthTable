@@ -37,9 +37,11 @@ import java.nio.CharBuffer
 
 fun main(args: Array<String>) {
 
+    println("Enter notation:")
+
     Until(
         operation = { readLine() },
-        matches = { it != "<EOF>" },
+        matches = { it != "exit" },
         run = {
             val buf = CharBuffer.wrap(it.toCharArray())
 
@@ -116,9 +118,7 @@ fun printTable(table: TruthTable) {
 fun spaced(length: Int, str: String): String =
     StringBuilder().let { s -> repeat(length - str.length) { s.append(' ') }; s }.let {
         val down = length / 2
-        if (down - 1 != 0) it.insert(down - 1, str) // Left preference
-        else it.insert(down, str)
-        it.toString()
+        it.insert(down, str).toString()
     }
 
 data class TableEntry(val values: List<Boolean>, val result: Boolean, val results: List<Result>)

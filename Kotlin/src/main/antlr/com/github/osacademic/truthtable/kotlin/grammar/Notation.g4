@@ -24,7 +24,7 @@ fragment Lower       :  'a' .. 'z';
 Letter               :  Upper | Lower;
 Negation             :  '!' | '¬' | '~' ;
 Conjunction          :  '^' | '∧' | '⋅' | '&' ;
-Disjunction          :  'v' | '∧' | '+' | '|' ;
+Disjunction          :  'v' | '+' | '|' ;
 Exclusive_Disjuction : '⊕' | '=/' ;
 Conditional          : '->' ;
 Biconditional        : '<->' ;
